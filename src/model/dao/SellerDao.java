@@ -16,5 +16,7 @@ void insert(Seller obj);
 	Seller findById(Integer id);
 	
 	List<Seller> findAll();
+	
+	List<Seller> findByDepartment(Department department);
 
 }
